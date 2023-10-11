@@ -16,7 +16,7 @@ def ResizeFrame ( frame , scale = 0.75 ) : # scale is ratio by which dimensions 
 
 
 # IMAGE READING AND DISPLAYING
-img = cv.imread ('flower.jpg') # read image
+img = cv.imread ('99 Sunflower1.jpg') # read image
 cv.imshow ( 'flower' , img ) # display image
 cv.waitKey(0)
 
