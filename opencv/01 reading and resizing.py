@@ -16,13 +16,13 @@ def ResizeFrame ( frame , scale = 0.75 ) : # scale is ratio by which dimensions 
 
 
 # IMAGE READING AND DISPLAYING
-img = cv.imread ('99 Sunflower1.jpg') # read image
+img = cv.imread ("opencv/99 Sunflower1.jpg") # read image
 cv.imshow ( 'flower' , img ) # display image
 cv.waitKey(0)
 
 
 # VIDEO READING AND DISPLAYING 
-capture = cv.VideoCapture ('99 yume nikki.mp4') # capture is an instance of VideoCapture
+capture = cv.VideoCapture ("opencv/99 yume nikki.mp4") # capture is an instance of VideoCapture
 while True :
     isTrue, frame = capture.read() # Frame by Frame Reading
     cv.imshow ('Video',frame) # Frame by Frame Displaying 

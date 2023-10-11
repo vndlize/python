@@ -1,8 +1,8 @@
 import cv2 as cv
 
 # Load two images for comparison
-image1_path = 'C:/Users/hridy/Desktop/images/rose1.jpg'
-image2_path = 'C:/Users/hridy/Desktop/images/rose2.jpg'
+image1_path = 'opencv/99 Sunflower1.jpg'
+image2_path = 'opencv/99 Sunflower2.jpg'
 
 image1 = cv.imread(image1_path, cv.IMREAD_GRAYSCALE)
 image2 = cv.imread(image2_path, cv.IMREAD_GRAYSCALE)

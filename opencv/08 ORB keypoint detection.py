@@ -1,7 +1,7 @@
 import cv2 as cv
 
 # image loading
-image_path = 'C:/Users/hridy/Desktop/images/rose1.jpg'
+image_path = 'opencv/99 Sunflower1.jpg'
 img = cv.imread(image_path)
 image = cv.imread(image_path, cv.IMREAD_GRAYSCALE)
 

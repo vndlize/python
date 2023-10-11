@@ -3,7 +3,7 @@
 import cv2 as cv
 
 # Load an image
-image_path = 'C:/Users/hridy/Desktop/images/rose1.jpg'
+image_path = 'opencv/99 Sunflower1.jpg'
 image = cv.imread(image_path)
 
 # Resize function
@@ -27,7 +27,7 @@ resized_image_with_keypoints = resize_image(image_with_keypoints, scale_percent=
 cv.imshow('SIFT Keypoints', resized_image_with_keypoints)
 
 # Load another image for matching (you can load a different image)
-image2_path = 'C:/Users/hridy/Desktop/images/rose2.jpg'
+image2_path = 'opencv/99 Sunflower2.jpg'
 image2 = cv.imread(image2_path)
 keypoints2, descriptors2 = sift.detectAndCompute(image2, None)
 

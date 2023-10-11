@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 # load an image
-image = cv.imread ('C:/Users/HridyeshDas/OneDrive - Tata Insights and Quants/Desktop/Pictures/flower.jpg')
+image = cv.imread ('opencv/99 Sunflower1.jpg')
 
 # gaussian filtering
 gaussian_blur = cv.GaussianBlur(image, (5, 5), 0)

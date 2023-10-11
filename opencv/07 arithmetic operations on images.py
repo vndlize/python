@@ -1,8 +1,8 @@
 import cv2 as cv
 import numpy as np
 
-img1 = cv.imread('C:/Users/HridyeshDas/OneDrive - Tata Insights and Quants/Desktop/Pictures/flower.jpg')
-img2 = cv.imread('C:/Users/HridyeshDas/OneDrive - Tata Insights and Quants/Desktop/Pictures/flower2.jfif')
+img1 = cv.imread('opencv/99 Sunflower1.jpg')
+img2 = cv.imread('opencv/99 Sunflower2.jpg')
 
 # for arithmetic operations always ensure images are of same dimensions
 image2 = cv.resize(img2, (500, 500))

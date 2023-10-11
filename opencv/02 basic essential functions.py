@@ -1,6 +1,6 @@
 # OPEN CV TRANSFORMATIONS 
 import cv2 as cv
-img = cv.imread ('C:/Users/HridyeshDas/OneDrive - Tata Insights and Quants/Desktop/Pictures/flower.jpg')
+img = cv.imread ('opencv/99 Sunflower1.jpg')
 cv.imshow ( 'flower' , img )
 
 # greyscale 

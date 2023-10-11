@@ -1,7 +1,7 @@
 import cv2 as cv
 
 # load an image
-image_path = 'C:/Users/hridy/Desktop/images/rose1.jpg'
+image_path = 'opencv/99 Sunflower1.jpg'
 image = cv.imread(image_path)
 
 # resize function 
