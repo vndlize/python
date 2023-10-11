@@ -22,7 +22,7 @@ cv.waitKey(0)
 
 
 # VIDEO READING AND DISPLAYING 
-capture = cv.VideoCapture ('vrvideo.mp4') # capture is an instance of VideoCapture
+capture = cv.VideoCapture ('99 yume nikki.mp4') # capture is an instance of VideoCapture
 while True :
     isTrue, frame = capture.read() # Frame by Frame Reading
     cv.imshow ('Video',frame) # Frame by Frame Displaying 
