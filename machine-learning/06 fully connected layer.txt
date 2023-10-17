@@ -1,0 +1,14 @@
+Global Connected Layer
+Features >
+> Global Pattern Recognition
+> Parameter Tuning
+> Non-linearity
+> Output Layer
+> Generalization
+
+What happens if we dont use this layer ?
+    >Loss of Global Information
+    > Dimensionality Reduction
+    > Limited Task Flexibility
+    > Inadequate for Many Tasks
+    

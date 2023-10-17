@@ -1,0 +1,24 @@
+Convolutional Layer
+> designed to automatically learn features about the input data
+> consists of kernels ( learnable filters ) along w input data . the kernels slide over data and extract local patterns and features
+> here , the edges , features , textures are detected
+> after convolution , activation function is applied (example : ReLU)
+
+> why is it used ???
+    > Feature Detection
+    > Spatial Hierarchies
+    > Weight Sharing
+    > Efficient Computation 
+
+> when is it used ???
+    > Used for image classification 
+    > Face recognition , object detection 
+    > Video analysis
+    > NLP
+
+> Formula 
+    > Output Size (Height or Width) = [(Input Size + 2 * Padding - Filter Size) / Stride] + 1
+        where input size -> height / width of feature map
+        padding -> number of rows / columns of zeroes before applying convolution
+        filter size -> size of convolutional filter
+        stride -> step size at which filter moves across feature map

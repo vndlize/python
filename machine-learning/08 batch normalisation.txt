@@ -1,0 +1,14 @@
+what is batch normalisation ???
+technique used in CNNs to improve training process and performance of the model 
+> basically each layer inputs mini batches of input data
+> in each layer , mean and variance are calcualted . through this data , it scales and shifts features to make them have a target mean and standard deviation
+> there are learnable parameters such as scale and shift
+
+Generally applied after the activation function, can be used in convolutional and fully connected layers 
+
+BENEFITS >>>
+    > stability 
+    > regularization 
+    > improved learning rates
+    > removes need for manual Tuning
+

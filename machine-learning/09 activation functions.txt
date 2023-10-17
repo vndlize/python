@@ -1,0 +1,28 @@
+Activation Functions 
+introduces non-linearity into the network, enabling it to learn complex relationships and make predictions
+it determines the output neuron from input data in neural networks
+
+Different Types 
+    > Sigmoid Function (Logistic): Output Range: (0, 1)
+      Formula: σ(x) = 1 / (1 + e^(-x))
+
+    > Hyperbolic Tangent Function (Tanh): Output Range: (-1, 1)
+      Formula: tanh(x) = (e^(2x) - 1) / (e^(2x) + 1)
+      
+    > Rectified Linear Unit (ReLU): Output Range: [0, ∞)
+      Formula: ReLU(x) = max(0, x)
+    
+    > Leaky ReLU: Output Range: (-∞, ∞)
+      Formula: LeakyReLU(x) = x if x > 0, otherwise LeakyReLU(x) = ax where 0 < a < 1.
+    
+    > Parametric ReLU (PReLU): Output Range: (-∞, ∞)
+      Formula: PReLU(x) = x if x > 0, otherwise PReLU(x) = ax where a is a learnable parameter.
+    
+    > Swish: Output Range: (0, ∞)
+      Formula: Swish(x) = x * sigmoid(x)
+    
+    > Exponential Linear Unit (ELU): Output Range: (-a, ∞)
+      Formula: ELU(x) = x if x > 0, otherwise ELU(x) = a * (e^x - 1) where a > 0.
+    
+    > Scaled Exponential Linear Unit (SELU): Output Range: It has a specific output range that maintains a fixed point at the mean of the activations.
+      Formula: SELU(x) = lambda * (x if x > 0 else a * (e^x - 1)) where a ≈ 1.6733 and lambda ≈ 1.0507.

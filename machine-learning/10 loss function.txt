@@ -1,0 +1,11 @@
+Loss Function 
+quantifies the dissimilarity between the predicted output (the model's output) and the actual target values (ground truth) for a given input
+
+Types ->
+    > Mean Squared Error (MSE) Loss
+    > Mean Absolute Error (MAE) Loss
+    > Categorical Cross-Entropy Loss
+    > Binary Cross-Entropy Loss
+    > Sparse Categorical Cross-Entropy Loss
+    > Hinge Loss
+    > Custom Loss Functions

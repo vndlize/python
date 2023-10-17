@@ -1,0 +1,11 @@
+Pooling Layer
+> Dimension Reduction: Pooling reduces the spatial dimensions of feature map while retaining important info
+> Translation Invariance: Pooling introduces a degree of translation invariance into the network
+> Feature Generalization: Pooling helps capture the most essential features of an object or pattern in an input region
+
+Three types involved ->
+    > Max Pooling -> selects the maximum value from a local region of the input feature map.
+    > Average Pooling -> calculates the average (mean) value within a local region of the input feature map.
+    > Global Average Pooling -> computes the average value across the entire feature map.   It reduces each feature map to a single value.
+    
+          
